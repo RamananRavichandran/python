@@ -1,5 +1,5 @@
 import csv
-with open("depttable.csv",mode="w") as csv_file:
+with open("depttable.csv", mode="w") as csv_file:
     fieldnames = ['dep_id', 'dep_name', 'dep_manager']
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
